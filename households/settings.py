@@ -1,3 +1,4 @@
+
 """
 Django settings for households project.
 
@@ -118,17 +119,7 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'yustaoab@gmail.com'
-EMAIL_HOST_PASSWORD = 'twnqanloovwgjrsq'
-
-#MY EMAIL SETTING
-# EMAIL_BACKEND ='django.core.mail.backends.smtp.EmailBackend'
-# EMAIL_HOST = 'mail.qwikgas.ai'  #Hosted on namecheap Ex: mail.pure.com
-# EMAIL_USE_TLS = False
-# EMAIL_PORT = 26 #This will be different based on your Host, for Namecheap I use this`
-# EMAIL_HOST_USER = '' # Ex: info@pure.com
-# EMAIL_HOST_PASSWORD = '' # for the email you created through cPanel. The password for that
-#
-# DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+EMAIL_HOST_PASSWORD = ''
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
@@ -145,7 +136,7 @@ DATABASES = {
 #         'ENGINE': 'django.contrib.gis.db.backends.postgis',
 #         'NAME': 'qwikgas_map',
 #         'USER': 'postgres',
-#         'PASSWORD': 'TestPass',
+#         'PASSWORD': '',
 #         'HOST': 'localhost',
 #         'PORT': '5432',
 #     }
